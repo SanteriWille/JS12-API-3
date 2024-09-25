@@ -1,0 +1,30 @@
+OVERVIEW
+Oppgaven var å lage et program der du skriver inn navnet til en karakter i Harry Potter og det kommer opp bildet og annen informasjon på skjermen. All denne informasjonen kommmer fra en API. Og du kunne velge hvordan det skulle se ut selv.
+
+HVORDAN PROGRAMMET FUNKER?
+Programmet funker slik at du trenger bare å skrive inn en del av navnet og den finner karakteren og viser bildet og informasjonen til karakteren. 
+
+IMPLEMENTASJON
+
+
+TEKNOLOGIER BRUKT
+Jeg brukte HTML, CSS og javascript. Og så søkte jeg meg frem til noen forskjellige ting.
+
+FUNKSJONER/FUNKJSONALITET
+Så jeg har en søkeknapp som gjør om alle bokstavene til små bokstaver for å sammenligne med API-en, den har også at hvis det ikke finnes noe navn så kommer det opp en error.
+Så har jeg en funksjon som lager selve innholdet av karakteren som vises på siden.
+Og så til slutt enter-knappen som også er en del av search funksjonen i stedet for å trykke på "Søk" knappen.
+
+![alt text](image.png)
+
+LENKER
+Enter funskjon - https://www.shecodes.io/athena/72484-how-to-simulate-pressing-the-enter-key-in-javascript
+Lage et element - https://www.w3schools.com/js/js_htmldom_nodes.asp
+Text shadow - https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+Fonten som ble brutk - https://fonts.google.com/selection/embed
+
+DESIGN
+Jeg brukte bare hvitt og svart som farger unntatt bakgrunnen som er ganske fargerik. 
+
+EGENVURDERING
+Jeg er egentlig ganske fornøyd med det jeg gjode, men jeg synes jeg kanskje kunne gjort noe mer med karakter kort delen. Det funker, men jeg syntes det ikke ser så kjempebra ut.

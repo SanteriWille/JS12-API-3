@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/* Bakgrunn */
+body {
+  background: url(./img/castle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Fikse overskriften */
+h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #fff;
+  text-shadow: #333 5px 0px 8px;
+}
+/* Input */
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+input {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 4px;
+  padding-left: 5px; 
+}
+/* Button */
+button {
+  font-size: 15px;
+  padding: 0px 25px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  color: #fff;
+}
+/* Karakter kort */
+.character-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  margin-top: 3rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 4px;
+}
+.character-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.character-img {
+  max-width: 250px;
+  height: auto;
+  margin-right: 20px;
+  padding: 10px 5px;
+}
+/* Error melding */
+#error-container {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: rgb(255, 0, 0);
+}
